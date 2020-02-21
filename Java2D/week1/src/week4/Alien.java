@@ -18,8 +18,7 @@ public class Alien extends Sprite2D {
     public boolean move() {
 //        System.out.println("ALien move");
         x += xSpeed;
-
-        System.out.println(x);
+//        System.out.println(x);
 
         // direction reversal
         if (x <= 0 || x >= winWidth - myImage.getWidth(null)) {

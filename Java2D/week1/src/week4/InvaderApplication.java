@@ -151,6 +151,7 @@ public class InvaderApplication extends JFrame implements Runnable, KeyListener 
                 if (AlienArray[i].move()) {
                     alienDirectionReversalNeeded = true; // 保证30个aliens 全部都到达边缘
 //                    Alien.reverseDirection();
+
 //                    for (int x = 0; x < NUMALIENS; x++) {
 //                        AlienArray[x].jumpDownwards();
 //                    }
